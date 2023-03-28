@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body .Footer {
+    background: #120d25;
+    padding: 60px 80px;
+    border: 2px solid #000000;
+}
+
+   /*left*/
+
+body .Footer .left {
+
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+body .Footer .left .Logo {
+    border-radius: 5px;
+    height: 200px;
+
+}
+    
+body .Footer .left .Logo > img {
+    width: 160px;
+    vertical-align: top;
+}
+    
+body .Footer .left > p{
+    color: #f1f1f1;
+    padding: 10px 0;
+}
+    
+body .Footer .Aplications{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+body .Footer .Aplications > span{
+
+    color: #f1f1f1;
+    display: flex;
+    gap: 30px;
+}
+
+body .Footer .Aplications > span img{
+    width: 25px;
+    margin: 0 12px;
+    padding: 10px 0;
+}
+
+body .Footer .right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    left: 60%;
+    right: 0%;
+    top: 0%;
+    bottom: 9.39%;
+    align-items: center;
+}
+
+body .Footer .right .Links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #f1f1f1;
+}
+
+body .Footer .right .Links .Support{
+    display: flex;
+    gap: 20px;
+}
+
+body .Footer .right .Links .Support > img{
+    width: 20px;
+}
+
+body .Footer .DB {
+    background: #333333;
+    padding: 10px 675.5px;
+    border: 2px solid #000000;
+    display: flex;
+}
+
+
+/*Footer 2*/
+
+body .F2 {
+    background: #1a681a;
+    padding: 20px 80px;
+    border: 2px solid #000000;
+}
+
+body .F2 .logotipo {
+display: flex;
+padding: 20px 0;
+}
+
+body .F2 .logotipo > img{
+    width: 70px;
+    margin-left: 500px;
+}
+
+body .F2 .Informacion {
+    padding: 10px 0;
+    align-items: center;
+    margin: 10px 100px;
+    text-align: center;
+}
+
+body .F2 .Informacion > p {
+    color: #f1f1f1;
+    margin: 30px 0;
+}
+
+body .F2 .BDN {
+    display: flex;
+    padding: 0 300px;
+    align-items: flex-start;
+    padding: 10px 300px
+    flex-direction: row;
+}
+
+body .F2 .BDN > p {
+
+    background: #f1f1f1;
+    color: #1a681a;
+    padding: 6px 200px;
+    font-size: 14px;
+    border-radius: 100px;
+    text-align: left;
+    display: flex;
+}
+
+body .F2 .BDN > button {
+padding: 0 30px;
+border-radius: 100px;
+background: #111111;
+color: #f1f1f1;
+position: absolute;
+width: 130px;
+height: 30px;
+right: 410px;
+top: 786px;
+}
+
+body .F2 .Iconos {
+    padding: 40px 0;
+    text-align: center;
+}
+
+body .F2 .Iconos > img {
+    width: 20px;
+    gap: 16px;
+    margin: 0 10px;
+}
+
+/*Footer 3*/
+
+body .F3 {
+    background: #c9c9c9;
+    border: 2px solid #000000;
+    padding: 20px 60px;
+}
+
+
+body .F3 .Izquierda {
+
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+body .F3 .Izquierda .Logotype {
+    height: 150px;
+
+}
+    
+body .F3 .Izquierda .Logotype > img {
+    width: 220px;
+    vertical-align: top;
+    position: absolute;
+    top: 970px;
+}
+    
+body .F3 .Izquierda > p{
+padding: 12px;
+}
+
+body .F3 .Izquierda .Dev {
+    display: flex;
+    padding: 10px 20px;
+}
+
+body .F3 .Izquierda .Dev > img {
+    width: 20px;
+}
+
+body .F3 .Izquierda .Dev > p {
+    padding: 0 8px ;
+}
+
+body .F3 .Izquierda .BTN{
+
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body .F3 .Izquierda .BTN > Button {
+    color: #f1f1f1;
+    border: 2px solid #c9c9c9;
+    border-radius: 100px;
+    margin: 38px 12px;
+    align-items: self-start;
+}
+
+body .F3 .Izquierda .BTN > Button > img{
+width: 22px;
+margin-left: -160px;
+}
+
+body .F3 .Derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 90px;
+    position: absolute;
+    left: 60%;
+    right: 0%;
+    top: 170%;
+    bottom: 9.39%;
+    align-items: center;
+}
+
+body .F3 .Derecha .Direcciones {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    color: #000000;
+}
+
+body .F3 .Derecha > button{
+    background: #111111;
+    color: #f1f1f1;
+    border-radius: 10px;
+    padding: 13px 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    left: 76px;
+}
